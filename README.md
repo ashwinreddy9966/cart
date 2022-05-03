@@ -1,4 +1,4 @@
-# Cart Service
+# Cart Service : Cart
 
 This service is responsible for Cart Service in  RobotShop e-commerce portal.
 
