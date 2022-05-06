@@ -5,7 +5,7 @@ agent any
     stages {
         stage('Lint Checks'){
         steps {
-        script { nodejs.info('Starting') }
+        script { nodejs.info() }
               sh "echo Starting Lint Check"
               sh "echo Lint Checks Completed"
 //             sh "npm install jslint"
