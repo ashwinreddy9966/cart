@@ -4,6 +4,8 @@ agent any
         stage('Lint Checks'){
         steps {
             sh "npm install jslint"
+            sh "ls -ltr"
+            sh "ls -ltr ~/node_modules/jslint/bin/jslint.js"
             sh "~/node_modules/jslint/bin/jslint.js server.js"
             }
         }
