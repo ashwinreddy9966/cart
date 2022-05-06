@@ -3,8 +3,8 @@ agent any
     stages {
         stage('Lint Checks'){
         steps {
-            sh "/home/centos/node_modules/eslint/bin/eslint.js server.js"
+            sh "~/node_modules/jslint/bin/jslint.js server.js"
             }
         }
-    }
+    } // end of stages
 }
