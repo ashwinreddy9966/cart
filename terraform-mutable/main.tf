@@ -7,7 +7,7 @@ module "cart" {
   COMPONENT             = var.COMPONENT
   WORKSTATION_IP        = var.WORKSTATION_IP
   APP_PORT              = var.APP_PORT
-  APP_VERSION           = var.APP_VERSION 
+  APP_VERSION           = var.APP_VERSION
 }
 
 
