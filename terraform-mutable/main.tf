@@ -6,6 +6,7 @@ module "cart" {
   OD_INSTANCE_COUNT     = var.OD_INSTANCE_COUNT
   COMPONENT             = var.COMPONENT
   WORKSTATION_IP        = var.WORKSTATION_IP
+  PROMETHEUS_IP         = var.PROMETHEUS_IP
   APP_PORT              = var.APP_PORT
   APP_VERSION           = var.APP_VERSION
   LB_TYPE               = "internal"
