@@ -12,4 +12,5 @@ terraform {
 
 module "ami" {
   source = "git::https://github.com/ashwinreddy9966/tf-module-immutable-ami.git"
+  COMPONENT = "cart"
 }
