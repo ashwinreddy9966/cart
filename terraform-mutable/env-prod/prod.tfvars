@@ -1,4 +1,8 @@
 ENV="prod"
 INSTANCE_TYPE = "t3.micro"
+<<<<<<< HEAD
 SPOT_INSTANCE_COUNT = 1
+=======
+SPOT_INSTANCE_COUNT = 2
+>>>>>>> abfd4383a2bcdbd6d07c345ed2aac35ee08850d6
 OD_INSTANCE_COUNT = 0
