@@ -10,13 +10,9 @@ module "cart" {
   APP_PORT              = var.APP_PORT
   APP_VERSION           = var.APP_VERSION
   LB_TYPE               = "internal"
-<<<<<<< HEAD
   APP_TYPE              = var.APP_TYPE
-
-=======
-  APP_TYPE              =  "backend"
->>>>>>> abfd4383a2bcdbd6d07c345ed2aac35ee08850d6
 }
+
 
 
 
