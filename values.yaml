@@ -2,7 +2,7 @@ component: cart
 replicaCount: 1
 
 image:
-  repository: 834725375088.dkr.ecr.us-east-1.amazonaws.com/cart
+  repository: 834725375088.dkr.ecr.us-east-1.amazonaws.com/{{ .Values.component }}
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "4.0.1"
